@@ -1,0 +1,125 @@
+.paises{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px; 
+    
+}
+.f{
+    margin-top: 40px;
+}
+
+img{
+    cursor: pointer;
+}
+
+.pesquisa{
+   
+    background-color:hsl(207, 26%, 17%);
+}
+
+li{
+    color: white;
+}
+
+.v{
+    cursor: pointer;
+}
+
+.items{
+    margin: auto;
+    width: 100%;
+    background-color:hsl(207, 26%, 17%);
+
+}
+
+
+.card-pais{
+    background-color:  hsl(209, 23%, 22%);
+    width: 18rem;
+    margin: auto;
+    color: white;
+    margin: 22px;
+    
+}
+
+.filter{
+    margin-top: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: hsl(209, 23%, 22%);
+}
+.filter:hover{
+    color: white;
+}
+
+
+.image-pais{
+    height: 200px;
+}
+
+li{
+    list-style: none;
+}
+
+
+form{
+    margin-left: 20px;
+    background-color: hsl(209, 23%, 22%); 
+    width: 30%;
+    border-radius: 5px;
+} 
+
+input{
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+      width: 80%;
+      margin-right: 20px;
+    }
+    .f{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .filter{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .regions{margin-left: 15px;}
+  }
+
+input{
+   width: 100%;
+   border-radius: 5px;
+   padding: 10px;
+   background-color:hsl(209, 23%, 22%);
+   border: none;
+}
+
+.regions{
+    background-color: hsl(209, 23%, 22%);
+}
+.dropdown-menu{
+    background-color: hsl(209, 23%, 22%);
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.v:hover{
+    color: white;
+}
+
+.v{
+    margin: 10px;
+}
+

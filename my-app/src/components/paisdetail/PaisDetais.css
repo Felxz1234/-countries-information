@@ -1,0 +1,47 @@
+
+
+.Paisdetail{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  
+}
+
+body{
+    background-color: hsl(207, 26%, 17%);
+}
+
+.p{
+    border: none;
+    width: 20rem;
+    background-color: hsl(209, 23%, 22%);
+    
+}  
+
+
+ul{
+    background-color: hsl(209, 23%, 22%);
+}
+
+
+li{
+    
+    color: rgb(148, 146, 146);
+    font-weight: bold;
+}
+
+.fd{
+    color: white;
+}
+
+
+button{
+    color: white;
+    padding: 10px;
+    background-color: hsl(209, 23%, 22%);
+    border-radius:10px ;
+    border: none;
+    margin-top: 40px;
+   
+}

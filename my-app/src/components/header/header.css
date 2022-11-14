@@ -1,0 +1,30 @@
+.h{
+    color: white;
+    background-color: hsl(209, 23%, 22%);
+}
+
+h5{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+a{
+    padding: 35px;
+    color: white;
+    font-weight: bold; 
+}
+
+span{
+    font-weight: bold;
+    color: white;
+    padding: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .d{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
